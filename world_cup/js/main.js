@@ -24,7 +24,7 @@ const criarEstruturaPaises = (paises) =>{
         div.appendChild(button);
 
         button.addEventListener('click', ()=>{
-            window.location.href = `times.html?country_id=${element.country_id}`
+            window.location.href = `times.html?country_id=${element.country_id}&country_name=${element.name}`
         })
     })
 }
